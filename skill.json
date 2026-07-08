@@ -1,0 +1,32 @@
+{
+  "name": "workflow-agent-scaffolder-skill",
+  "version": "1.0.0",
+  "description": "Deconstruct business workflow prompt descriptions into specific tasks and automatically scaffolding dedicated agent roles.",
+  "author": "alphaparkinc",
+  "category": "data",
+  "tags": [
+    "workflow",
+    "agent-builder",
+    "automation",
+    "architecture",
+    "codegen"
+  ],
+  "inputs": {
+    "workflow_description": {
+      "type": "string",
+      "description": "Text describing the entire business operation flow."
+    }
+  },
+  "outputs": {
+    "steps": {
+      "type": "array",
+      "description": "Deconstructed task flow steps."
+    },
+    "scaffolded_agents": {
+      "type": "array",
+      "description": "Required agent definition models: {role, system_prompt, input_spec}."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
