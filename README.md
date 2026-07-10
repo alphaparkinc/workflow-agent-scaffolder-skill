@@ -1,4 +1,4 @@
-# workflow-agent-scaffolder-skill
+# genpark-workflow-agent-scaffolder-skill
 
 > **GenPark AI Agent Skill** -- Automatic workflow task deconstructor and agent template architect.
 
