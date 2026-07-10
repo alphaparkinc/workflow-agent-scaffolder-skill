@@ -1,8 +1,8 @@
 {
   "name": "workflow-agent-scaffolder-skill",
   "version": "1.0.0",
-  "description": "Deconstruct business workflow prompt descriptions into specific tasks and automatically scaffolding dedicated agent roles.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Deconstruct business workflow prompt descriptions into specific tasks and automatically scaffolding dedicated agent roles.",
+  "author": "genpark",
   "category": "data",
   "tags": [
     "workflow",
